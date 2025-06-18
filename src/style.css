@@ -1,0 +1,105 @@
+
+/* For App.jsx */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.main-content {
+  flex: 1 0 auto; 
+  padding: 20px;
+}
+
+
+/* For Nvabar */
+.header {
+  background-color: #113874; 
+  padding: 10px 20px;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 40px;
+  cursor: pointer;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav ul li:hover {
+  color: #ffca28;
+}
+
+/* For Footer */
+/* .footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 8%;
+  font-size: 14px;
+  text-align: center;
+} */
+ .footer {
+  flex-shrink: 0;
+  background-color: #222;
+  color: #fff;
+  padding: 20px 8%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 40px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}

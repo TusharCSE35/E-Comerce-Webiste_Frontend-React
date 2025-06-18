@@ -1,0 +1,70 @@
+.outlet-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.user-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.shop-logo-header {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+.shop-title-header {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.outlet-message {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.outlet-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.outlet-item {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.outlet-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.outlet-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.outlet-address {
+  font-size: 14px;
+  color: #666;
+}
